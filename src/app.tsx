@@ -1,13 +1,10 @@
 import * as React from 'react';
-import {HelloWorldContainer} from './helloWorldContainer';
-import {NameEditContainer} from './nameEditContainer';
+import { MainPage } from './pages/main'
 
 export const App = () => {
   return (
     <div>
-      <HelloWorldContainer/>
-      <br/>
-      <NameEditContainer/>
+      <MainPage/>
     </div>
   );
 }

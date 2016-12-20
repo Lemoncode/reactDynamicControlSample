@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import { NameEditComponent } from './nameEdit';
-import {updateUserProfileName} from './actions/updateUserProfileName';
+import { NameEditorComponent } from './nameEditor';
+import {updateUserProfileName} from '../../actions/updateUserProfileName';
 
 const mapStateToProps = (state) => {
     return {
@@ -17,4 +17,4 @@ const mapDispatchToProps = (dispatch) => {
 export const NameEditContainer = connect(
                                    mapStateToProps
                                   ,mapDispatchToProps
-                                )(NameEditComponent);
+                                )(NameEditorComponent);
