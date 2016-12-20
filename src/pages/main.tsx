@@ -3,7 +3,6 @@ import { NameDisplayContainer } from '../components/nameDisplay'
 import { NameEditContainer } from '../components/nameEditor'
 import { Panel, PanelBody } from '../components/panel/panel'
 import { panelViews} from '../common/panelViews'
-import { MyDummy } from '../components/mydummy'
 
 interface Props {
 
