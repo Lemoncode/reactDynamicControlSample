@@ -1,9 +1,11 @@
 import * as React from 'react';
 import {} from 'core-js'
 
+
+
 export class PanelBody  {
     panelId : string;
-    component : any;
+    component : React.ComponentClass<any>;
 }
 
 
